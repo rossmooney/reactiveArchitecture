@@ -13,6 +13,7 @@
 		A10632F41F958F3F00BE6616 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10632F31F958F3F00BE6616 /* Assets.xcassets */; };
 		A10632F71F958F3F00BE6616 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A10632F51F958F3F00BE6616 /* LaunchScreen.storyboard */; };
 		A10633021F958F3F00BE6616 /* ArchitectureTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10633011F958F3F00BE6616 /* ArchitectureTestTests.swift */; };
+		A106330D1F958F6800BE6616 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A106330C1F958F6800BE6616 /* MainViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		A10632FD1F958F3F00BE6616 /* ArchitectureTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchitectureTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10633011F958F3F00BE6616 /* ArchitectureTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchitectureTestTests.swift; sourceTree = "<group>"; };
 		A10633031F958F3F00BE6616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A106330C1F958F6800BE6616 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				A10632EC1F958F3F00BE6616 /* AppDelegate.swift */,
 				A10632EE1F958F3F00BE6616 /* ViewController.swift */,
+				A106330C1F958F6800BE6616 /* MainViewModel.swift */,
 				A10632F01F958F3F00BE6616 /* Main.storyboard */,
 				A10632F31F958F3F00BE6616 /* Assets.xcassets */,
 				A10632F51F958F3F00BE6616 /* LaunchScreen.storyboard */,
@@ -201,6 +204,7 @@
 			files = (
 				A10632EF1F958F3F00BE6616 /* ViewController.swift in Sources */,
 				A10632ED1F958F3F00BE6616 /* AppDelegate.swift in Sources */,
+				A106330D1F958F6800BE6616 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
